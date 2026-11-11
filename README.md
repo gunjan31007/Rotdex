@@ -2,7 +2,7 @@
 
 Built for **NEBULITH: The Brainrot Ideathon & Hackathon** (Celestial Biscuit, IGDTUW) – Track 2, Supernova.
 
-**Live site:** PASTE_YOUR_DEPLOYED_URL_HERE
+**Live site:** https://rotdex-gamma.vercel.app/
 
 ## Concept
 ROTDEX is a Pokédex for internet brainrot. You create original creatures, collect them, battle with them and survive a feed of fake news. It looks chaotic, but every screen has a clear goal and a working mechanic.
