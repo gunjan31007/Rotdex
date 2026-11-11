@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ROTDEX – catch, battle and survive the brainrot</title>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="gate" role="dialog" aria-label="Captcha"><div class="b" style="font-size:1.8rem">PROVE YOU ARE NOT COOKED</div><div id="gq"></div><div id="gi"></div><div id="ge"></div><button class="btn y" id="gs">Skip (judges, we see you)</button></div>
+<div id="intro" role="status"><div id="rain" aria-hidden="true"></div><div class="ic"><div class="b">LOADING BRAINROT…</div><div class="lb"><i id="li"></i></div><div id="lt">downloading 67 aura</div><small>click to skip</small></div></div>
+<div class="tv" id="tv" role="alert" hidden><div class="bw"></div><canvas id="nz" width="160" height="90"></canvas><div class="wt"><div class="b">⚠ NO SIGNAL ⚠</div><div>BRAINROT LEVELS CRITICAL. RETUNING YOUR VIBES.</div><small>click to skip</small></div></div>
+<div class="top"><span class="b">ROTDEX</span><span>Aura: <b id="au">0</b></span><span><button class="btn y" id="m67" aria-pressed="false">67 mode</button> <button class="btn o" id="ch">Chaos</button> <button class="btn o" id="th">Theme</button></span></div>
+<main>
+<h1>ROTDEX</h1>
+<p class="lead">Make an original brainrot creature, save it to your dex, battle with it and survive the doomscroll. Every stat you earn becomes aura.</p>
+<div class="nav" role="tablist"><button class="btn on" data-t="lab">Lab</button><button class="btn" data-t="bat">Battle</button><button class="btn" data-t="doom">Doomscroll</button></div>
+
+<section class="pane" id="lab"><h2>The Lab</h2><p>Pick an animal, an object and a vibe. The same mix always makes the same creature.</p>
+<div class="row"><div><label for="sa">Animal</label><select id="sa"></select></div><div><label for="so">Object</label><select id="so"></select></div><div><label for="sv">Vibe</label><select id="sv"></select></div></div>
+<p><button class="btn" id="rnd">Randomise</button> <button class="btn o" id="sv2">Save to dex</button> <button class="btn y" id="dl">Download card</button></p>
+<div class="lab"><canvas id="cv" width="600" height="840" aria-label="Creature trading card"></canvas><div><div class="b">Your dex</div><div class="chips" id="dex"></div></div></div></section>
+
+<section class="pane" id="bat" hidden><h2>Aura Battle</h2><p>Best of 3. Each stat can be used once. Higher number wins the round.</p>
+<div class="row"><div><label for="bs">Your fighter</label><select id="bs"></select></div><div style="flex:0"><button class="btn" id="bgo">Fight</button></div></div>
+<div class="vs" id="vs"></div><p><span id="bb"></span></p><div class="log" id="bl" aria-live="polite">Save a creature in the Lab, then press Fight.</div></section>
+
+<section class="pane" id="doom" hidden><h2>Doomscroll Escape</h2><p>Every post is nonsense except one that is real and useful. Find it in 20 seconds. Each catch gives +50 aura, each miss costs 10.</p>
+<p><button class="btn" id="dgo">Start scrolling</button> <span class="big" id="dt"></span></p><div class="feed" id="fd"></div></section>
+</main>
+<footer>Made for NEBULITH · Supernova · IGDTUW. Runs fully in your browser.</footer>
+<script src="script.js"></script>
+</body>
+</html>
